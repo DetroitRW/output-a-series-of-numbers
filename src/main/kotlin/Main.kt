@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     print("Введите шаг: ")
     val c = reader.nextInt()
 
-    while (a + c <= b) {
+    while (a <= b) {
         println(a)
         a += c
     }
